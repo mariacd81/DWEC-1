@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Colores</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            div{
+                width: 300px;
+                height: 300px;
+                display: inline-block;
+            }
+        </style>
+        <script>
+            function cargar(){
+                window.opener.postMessage("Listo","*");
+            }
+            window.addEventListener('load',cargar,false);
+        </script>
+    </head>
+    <body>
+        <h1>Colores</h1>
+        <div id="div1" style="background-color: #f0c0c0"></div>
+        <div id="div2" style="background-color: #c0f0f0"></div>
+        <div id="div3" style="background-color: blanchedalmond"></div>
+        <div id="div4" style="background-color: cadetblue"></div>
+        <div id="div5" style="background-color: burlywood"></div>
+        <div id="div6" style="background-color: graytext"></div>
+    </body>
+</html>

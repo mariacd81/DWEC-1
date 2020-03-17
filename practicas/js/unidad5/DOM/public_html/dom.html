@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <form name="form1" enctype="application/x-www-form-urlencoded" onsubmit="return validaAlumno()" id="alumno">
+            <div>
+                <label>Ciclo: </label><br/>
+                <select name="select" id="selectCicloA">
+                    <option value="ninguno">Seleccione un valor</option>
+                    <option value="dawA">Desarrollo de Aplicaciones Web</option>
+                    <option value="smrA">Sistemas Microinformáticos y Redes</option>
+                </select>
+                <br/>
+            </div>
+            <div>
+                <label>Curso: </label><br/>
+                <select name="select" id="selectCursoA">
+                    <option value="ninguno">Seleccione un valor</option>
+                    <option value="primeroA">Primer Curso</option>
+                    <option value="segundoA">Segundo Curso</option>
+                </select>
+                <br/>
+            </div>
+            <div class="modulosA" id ="smr1A">
+                <label>Asignaturas que estás cursando</label><br/>
+                <input type="checkbox" id="montajeA" name="montajeA"> <!--//Recuerda la selección-->
+                <label for="montajeA">Montaje y Mantenimiento de Equipos</label><br/>
+
+                <input type="checkbox" id="redesA" name="redesA"> <!--//Recuerda la selección-->
+                <label for="redesA">Redes Locales</label><br/>
+
+                <input type="checkbox" id="ofimaticasA" name="ofimaticasA"> <!--//Recuerda la selección-->
+                <label for="ofimaticasA">Aplicaciones Ofimáticas</label><br/>
+
+                <input type="checkbox" id="soMonopuestoA" name="soMonopuestoA"> <!--//Recuerda la selección-->
+                <label for="soMonopuestoA">Sistemas Operativos Monopuesto</label><br/>
+
+                <input type="checkbox" id="folSMRA" name="folSMRA"> <!--//Recuerda la selección-->
+                <label for="folSMRA">Formación y Orientación Laboral</label><br/>
+
+                <input type="checkbox" id="inglesA" name="inglesA"> <!--//Recuerda la selección-->
+                <label for="inglesA">Ingles</label><br/>
+            </div>
+
+            <div class="modulosA" id ="smr2A">
+                <label>Asignaturas que estás cursando</label><br/>
+                <input type="checkbox" id="sistemasEnRedA" name="sistemasEnRedA"> <!--//Recuerda la selección-->
+                <label for="sistemasEnRedA">Sistemas Operativos en Red</label><br/>
+
+                <input type="checkbox" id="seguridadInformaticaA" name="seguridadInformaticaA"> <!--//Recuerda la selección-->
+                <label for="seguridadInformaticaA">Seguridad Informática</label><br/>
+
+                <input type="checkbox" id="serviciosRedA" name="serviciosRedA"> <!--//Recuerda la selección-->
+                <label for="serviciosRedA">Servicios en la Red</label><br/>
+
+                <input type="checkbox" id="aplicacionesWebA" name="aplicacionesWebA"> <!--//Recuerda la selección-->
+                <label for="aplicacionesWebA">Aplicaciones Web</label><br/>
+
+                <input type="checkbox" id="eieSMRA" name="eieSMRA"> <!--//Recuerda la selección-->
+                <label for="eieSMRA">Empresa e Iniciativa Emprendedora</label><br/>
+            </div>
+
+            <div class="modulosA" id ="daw1A">
+                <label>Asignaturas que estás cursando</label><br/>
+                <input type="checkbox" id="lmsgiA" name="lmsgiA"> <!--//Recuerda la selección-->
+                <label for="lmsgiA">Lenguajes de Marcas y Sistemas de Gestión de Información</label><br/>
+
+                <input type="checkbox" id="soA" name="soA"> <!--//Recuerda la selección-->
+                <label for="soA">Sistemas Informáticos</label><br/>
+
+                <input type="checkbox" id="bbddA" name="bbddA"> <!--//Recuerda la selección-->
+                <label for="bbddA">Bases de Datos</label><br/>
+
+                <input type="checkbox" id="progA" name="progA"> <!--//Recuerda la selección-->
+                <label for="progA">Programación</label><br/>
+
+                <input type="checkbox" id="eddA" name="eddA"> <!--//Recuerda la selección-->
+                <label for="eddA">Entornos de Desarrollo</label><br/>
+
+                <input type="checkbox" id="folDAWA" name="folDAWA"> <!--//Recuerda la selección-->
+                <label for="folDAWA">Formación y Orientación Laboral</label><br/>
+            </div>
+
+            <div class="modulosA" id ="daw2A">
+                <label>Asignaturas que estás cursando</label><br/>
+                <input type="checkbox" id="dwecA" name="dwecA"> <!--//Recuerda la selección-->
+                <label for="dwecA">Desarrollo Web en Entorno Cliente</label><br/>
+
+                <input type="checkbox" id="dwesA" name="dwesA"> <!--//Recuerda la selección-->
+                <label for="dwesA">Desarrollo Web en Entorno Servidor</label><br/>
+
+                <input type="checkbox" id="dawA" name="dawA"> <!--//Recuerda la selección-->
+                <label for="dawA">Despliegue de Aplicaciones Web</label><br/>
+
+                <input type="checkbox" id="diwA" name="diwA"> <!--//Recuerda la selección-->
+                <label for="diwA">Diseño de Interfaces Web</label><br/>
+
+                <input type="checkbox" id="eieDAWA" name="eieDAWA"> <!--//Recuerda la selección-->
+                <label for="eieDAWA">Empresa e Iniciativa Emprendedora</label><br/>
+            </div>
+            <input type="submit" disabled value="Registrarse" id="registroA">
+            <input type="reset" value="Limpiar">
+        </form>
+    </body>
+</html>

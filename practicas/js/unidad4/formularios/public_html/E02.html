@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>E02</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="javaScript/tuCodigo.js"></script>
+        <style>
+            div{
+                margin: 5px;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1>Formulario 2</h1>
+        </header>
+        <main>
+            <form name="form2" action="#" onsubmit="return e02()">
+                <fieldset>
+                    <legend>Datos personales</legend>
+                    <div>
+                        <label>Nombre: </label><br/>
+                        <input type="text" name="nombre" placeholder="Introduce tu nombre" >
+                        <br/>
+                    </div>
+                    <div>
+                        <label>Apellidos: </label><br/>
+                        <input type="text" name="ape" placeholder="Introduce tus apellidos" >
+                        <br/>
+                    </div>
+                    <div>
+                        <label>Email:</label><br/>
+                        <input type="email" name="email" placeholder="Introduce tu email">
+                        <br/>
+                    </div>
+                    <div>
+                        <label>Género:</label><br/>
+                        <input type="radio" id="mujer" name="genero" value="mujer" checked>Mujer
+                        <input type="radio" id="hombre" name="genero" value="hombre">Hombre
+                        <input type="radio" id="otro" name="genero" value="otro">Otro
+                        <br/>
+                    </div>
+                    <div>
+                        <label>Aficiones:</label><br/>
+                        <input type="checkbox" id="check1" name="check" value="viajes">Viajes
+                        <input type="checkbox" id="check2" name="check" value="deporte">Deporte
+                        <input type="checkbox" id="check3" name="check" value="cine">Cine
+                        <input type="checkbox" id="check4" name="check" value="musica">Música
+                        <input type="checkbox" id="check5" name="check" value="videojuegos">Videojuegos
+                        <input type="checkbox" id="check6" name="check" value="coches">Coches
+                        <input type="checkbox" id="check7" name="check" value="gastronomia">Gastronomía
+                        <input type="checkbox" id="check8" name="check" value="belleza">Belleza
+                        <input type="checkbox" id="check9" name="check" value="tecnologia">Tecnología
+                        
+                    </div>
+                    <input type="submit" value="Enviar">
+                    <input type="reset" value="Borrar">
+                </fieldset>
+            </form>
+        </main>
+    </body>
+</html>

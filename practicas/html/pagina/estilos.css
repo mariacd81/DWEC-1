@@ -1,0 +1,34 @@
+nav ul li{
+	display: inline-block;
+	background-color: #890236;
+	color: white;
+	padding-left: 25px;
+	padding-right: 25px;
+}
+body{
+	background-color: grey;
+}
+h1{
+	border-bottom: 10px dotted #890236;
+	text-align: center;
+	color: #025877;
+}
+table{
+	background-color: #890236;
+	color: black;
+}
+section{
+	display: inline-block;
+	margin: 10px;
+}
+form{
+	border-radius: 10px;
+	background-color: #025877;
+	padding: 5px;
+}
+#boton{
+	margin-top: 5px;
+}
+footer{
+	text-align: center;
+}

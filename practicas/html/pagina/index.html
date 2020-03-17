@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<!--
+Autor.- Bea Merino Macía
+fecha .-13/09/2019
+Ejercicio.- 
+-->
+
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Bea Merino Macía">
+        <meta name="application-name" content="Sitio web de LMSGI">
+        <meta name="description" content="Plantilla que describe lo que debe contener una pagina web">
+        <meta name="keywords" content="analítica web, seo, web semántica, seo semántico, analytics" >
+        <!-- Recomendado 5 o 8 palabras clave, Cada palabra clave puede estar constituida por hasta 4 o 5 palabras. -->
+        <meta name="robots" content="index, follow" />
+
+        <link href="css/reset.css"   rel="stylesheet"         type="text/css" >
+        <link href="estilos.css"  rel="stylesheet"         type="text/css" title="Default style">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+
+        <link rel="icon" href="lib.png" type="image/x-icon">
+        <link rel="icon" href="/favicon.ico" type="image/x-icon">
+        <!-- Tipografía -->
+		<link href="https://fonts.googleapis.com/css?family=Neucha" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+
+        <title>Bea Merino Macía</title>
+    </head>
+	
+	<body>
+		<header>
+			<h1>Matrícula del curso</h1>
+		</header>
+		<nav>
+			<ul id="menu">
+				<li>Home</li>
+				<li>Oferta educativa</li>
+				<li>Tutorias</li>
+                <li>Horarios</li>
+                <li>Contacto</li>
+			</ul>
+		</nav>
+		<main>
+			<section>
+				<a href="http://ieslossauces.centros.educa.jcyl.es/sitio/"><img src="sauces.png" width="400" height="300" alt="IES Los Sauces"></a>
+			</section>	
+			
+			<section>
+				<form action="#" method="get">
+					<fieldset>
+						<legend>Datos personales</legend>
+						
+						<div>
+							<strong>Nombre:</strong><br>
+							<input type="text" name="nombre" required>
+						</div>
+						<div>
+							<strong>Apellidos:</strong><br>
+							<input type="text" name="ape" required>
+						</div>
+						<div>
+							<strong>Email:</strong><br>
+							<input type="email" name="email" required>
+						</div>
+						<div>
+							<strong>Fecha de nacimiento:</strong><br>
+							<input type="date" id="fechanac" max="2018-11-08" required>
+						</div>
+					</fieldset>
+					<fieldset>
+						<legend>Matrícula</legend>
+						<div>
+							¿De qué te matriculas?<br>
+							<input type="radio" name="prim" value="prim">1er curso<br>
+							<input type="radio" name="seg" value="seg">2º curso
+						</div>
+					</fieldset>
+					<div id="boton">
+						<input type="submit" value="Aceptar">
+					</div>
+				</form>
+			</section>
+			
+			<section>
+				<table border="1">
+					<tr>
+						<th>Curso</th>
+						<th>Asignaturas</th>
+					</tr>
+					<tr>
+						<td>1er curso</td>
+						<td>
+							<ul>
+								<li>Redes Locales</li>
+								<li>Sistemas Operativos</li>
+								<li>Aplicaciones Web</li>
+								<li>Ofimática</li>
+								<li>FOL</li>
+							</ul>
+						</td>
+					</tr>
+					<tr>
+						<td>2º curso</td>
+						<td>
+							<ul>
+								<li>Montaje y Mantenimiento</li>
+								<li>Sistemas Operativos en Red</li>
+								<li>Servicios</li>
+								<li>Seguridad</li>
+								<li>Empresa</li>
+							</ul>
+						</td>
+					</tr>
+				</table>
+			</section>
+        </main>
+		
+		<footer>
+			<p>Contacto del centro: </p>
+			<p>Av. Federico Silva, 48, 49600 Benavente, Zamora</p>
+		</footer>
+	</body>
+</html>

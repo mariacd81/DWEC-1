@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>E03</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="javaScript/tuCodigo.js"></script>
+        <style>
+            div{
+                margin: 5px;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1>Formulario 3</h1>
+        </header>
+        <main>
+            <form name="form3" action="#" onsubmit="return e03()">
+                <fieldset>
+                    <legend>Curso</legend>
+                    <div>
+                        <label>Selecciona tu curso: </label><br/>
+                        <select name="select" id="select">
+                            <option value="ninguno">Seleccione un valor</option>
+                            <option value="primero">Primer Curso</option>
+                            <option value="segundo">Segundo Curso</option>
+                        </select>
+                        <br/>
+                    </div>
+                    <input type="submit" value="Enviar">
+                </fieldset>
+            </form>
+            <form action="#" name="form4" onsubmit="return e04()">
+                <fieldset>
+                    <legend>Módulos</legend>
+                    <div>
+                        <label>Selecciona los módulos:</label>
+                        <select name="select2" id="select2" ></select>
+                        <br/>
+                    </div>
+                    <div>
+                        <input type="file" multiple id="Fichero">
+                        <br/>
+                    </div>
+                    <div>
+                        <input type="submit" value="Enviar">
+                    </div>
+                </fieldset>
+            </form>
+        </main>
+    </body>
+</html>
